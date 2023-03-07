@@ -1,0 +1,27 @@
+body{
+    background-color: red;
+}
+#carouselExample{
+height:400px;
+}
+
+#carouselItem img{
+    width:100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.custom-nav{
+    margin:100px;
+    padding:100px;
+    background-color: violet;
+    display: flex;
+}
+
+.custom-nav a{
+    height: 50px;
+    flex:1;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
